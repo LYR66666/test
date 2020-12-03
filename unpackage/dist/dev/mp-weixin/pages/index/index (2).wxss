@@ -1,0 +1,314 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.menu-item {
+  position: relative;
+  width: 750rpx;
+  height: 95rpx;
+  background-color: #ffffff;
+  -webkit-box-shadow: 4rpx -2rpx 24rpx 0rpx rgba(3, 0, 0, 0.14);
+          box-shadow: 4rpx -2rpx 24rpx 0rpx rgba(3, 0, 0, 0.14);
+}
+.menu-item #rm {
+  position: absolute;
+  left: 40rpx;
+  bottom: 26rpx;
+  width: 108rpx;
+  height: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -1rpx;
+  color: #333333;
+}
+.menu-item #sr {
+  position: absolute;
+  left: 226rpx;
+  bottom: 26rpx;
+  width: 120rpx;
+  height: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -1rpx;
+  color: #333333;
+}
+.menu-item #sk {
+  position: absolute;
+  left: 415rpx;
+  bottom: 26rpx;
+  width: 108rpx;
+  height: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -1rpx;
+  color: #333333;
+}
+.menu-item #gz {
+  position: absolute;
+  left: 603rpx;
+  bottom: 26rpx;
+  width: 120rpx;
+  height: 27rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -1rpx;
+  color: #333333;
+}
+.menu-item #tiaowen {
+  position: absolute;
+  top: 95rpx;
+  width: 187rpx;
+  height: 3rpx;
+  background-color: #df9543;
+}
+.content {
+  position: relative;
+}
+.content .1 {
+  position: absolute;
+  top: 95rpx;
+  height: 88rpx;
+  width: 750rpx;
+  background-color: #ffffff;
+}
+.content .rk {
+  position: absolute;
+  top: 58rpx;
+  left: 105rpx;
+  width: 180rpx;
+  height: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -1rpx;
+  color: #df9543;
+}
+.content .picture {
+  position: absolute;
+  left: 35rpx;
+  top: 58rpx;
+  width: 36rpx;
+  height: 40rpx;
+}
+.content .picture1 {
+  position: absolute;
+  left: 685rpx;
+  top: 50rpx;
+  width: 16rpx;
+  height: 26rpx;
+}
+.content .tw1 {
+  position: absolute;
+  left: 35rpx;
+  top: 112rpx;
+  width: 670rpx;
+  height: 1rpx;
+  background-color: #eeeeee;
+}
+.content .picture2 {
+  position: absolute;
+  top: 153rpx;
+  left: 35rpx;
+  width: 36rpx;
+  height: 40rpx;
+}
+.content .bm {
+  position: absolute;
+  top: 153rpx;
+  left: 105rpx;
+  width: 195rpx;
+  height: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -1rpx;
+  color: #df9543;
+}
+.content .picture3 {
+  position: absolute;
+  left: 685rpx;
+  top: 153rpx;
+  width: 16rpx;
+  height: 26rpx;
+}
+.content .tw2 {
+  position: absolute;
+  left: 35rpx;
+  top: 215rpx;
+  width: 670rpx;
+  height: 1rpx;
+  background-color: #eeeeee;
+}
+.content .picture4 {
+  position: absolute;
+  top: 256rpx;
+  left: 35rpx;
+  width: 36rpx;
+  height: 40rpx;
+}
+.content .zx {
+  position: absolute;
+  top: 256rpx;
+  left: 105rpx;
+  width: 271rpx;
+  height: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -1rpx;
+  color: #df9543;
+}
+.content .picture5 {
+  position: absolute;
+  left: 685rpx;
+  top: 256rpx;
+  width: 16rpx;
+  height: 26rpx;
+}
+.content .tw3 {
+  position: absolute;
+  left: 35rpx;
+  top: 318rpx;
+  width: 670rpx;
+  height: 1rpx;
+  background-color: #eeeeee;
+}
+.content .picture6 {
+  position: absolute;
+  top: 359rpx;
+  left: 35rpx;
+  width: 36rpx;
+  height: 40rpx;
+}
+.content .bl {
+  position: absolute;
+  top: 359rpx;
+  left: 105rpx;
+  width: 90rpx;
+  height: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -1rpx;
+  color: #df9543;
+}
+.content .picture7 {
+  position: absolute;
+  left: 685rpx;
+  top: 359rpx;
+  width: 16rpx;
+  height: 26rpx;
+}
+.content .tw4 {
+  position: absolute;
+  left: 35rpx;
+  top: 421rpx;
+  width: 670rpx;
+  height: 1rpx;
+  background-color: #eeeeee;
+}
+.content .picture11 {
+  position: absolute;
+  top: 462rpx;
+  left: 35rpx;
+  width: 36rpx;
+  height: 40rpx;
+}
+.content .sy {
+  position: absolute;
+  top: 462rpx;
+  left: 105rpx;
+  width: 409rpx;
+  height: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -1rpx;
+  color: #df9543;
+}
+.content .picture8 {
+  position: absolute;
+  left: 685rpx;
+  top: 462rpx;
+  width: 16rpx;
+  height: 26rpx;
+}
+.content .tw5 {
+  position: absolute;
+  left: 35rpx;
+  top: 524rpx;
+  width: 670rpx;
+  height: 1rpx;
+  background-color: #eeeeee;
+}
+.content .picture9 {
+  position: absolute;
+  top: 565rpx;
+  left: 35rpx;
+  width: 36rpx;
+  height: 40rpx;
+}
+.content .jc {
+  position: absolute;
+  top: 565rpx;
+  left: 105rpx;
+  width: 254rpx;
+  height: 26rpx;
+  font-family: PingFang-SC-Medium;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: -1rpx;
+  color: #df9543;
+}
+.content .picture10 {
+  position: absolute;
+  left: 685rpx;
+  top: 565rpx;
+  width: 16rpx;
+  height: 26rpx;
+}
+.content .tw6 {
+  position: absolute;
+  left: 35rpx;
+  top: 627rpx;
+  width: 670rpx;
+  height: 1rpx;
+  background-color: #eeeeee;
+}
+

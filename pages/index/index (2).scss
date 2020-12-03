@@ -1,0 +1,289 @@
+.menu-item {
+	position: relative;
+	width: 750rpx;
+	height: 95rpx;
+	background-color: #ffffff;
+	box-shadow: 4rpx -2rpx 24rpx 0rpx 
+		rgba(3, 0, 0, 0.14);
+		#rm{
+			position: absolute;
+			left: 40rpx;
+			bottom: 26rpx;
+			width: 108rpx;
+			height: 26rpx;		
+			font-family: PingFang-SC-Medium;
+			font-size: 28rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: -1rpx;
+			color: #333333;
+		}
+		#sr{
+			position: absolute;
+			left: 226rpx;
+			bottom: 26rpx;
+			width: 120rpx;
+			height: 26rpx;
+			font-family: PingFang-SC-Medium;
+			font-size: 28rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: -1rpx;
+			color: #333333;
+		}
+		#sk{
+			position: absolute;
+			left: 415rpx;
+			bottom: 26rpx;
+			width: 108rpx;
+			height: 26rpx;
+			font-family: PingFang-SC-Medium;
+			font-size: 28rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: -1rpx;
+			color: #333333;
+		}
+		#gz{
+			position: absolute;
+			left: 603rpx;
+			bottom: 26rpx;
+			width: 120rpx;
+			height: 27rpx;
+			font-family: PingFang-SC-Medium;
+			font-size: 28rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: -1rpx;
+			color: #333333;
+		}
+		#tiaowen{
+			position: absolute;
+			top: 95rpx;
+			width: 187rpx;
+			height: 3rpx;
+			background-color: #df9543;
+		}
+}
+.content{
+	// margin-top: 90rpx;
+	position: relative;
+.1{
+			position: absolute;
+			top: 95rpx;
+			height: 88rpx;
+			width: 750rpx;
+			background-color: #ffffff;
+	}
+.rk{
+			position: absolute;
+			top: 58rpx;
+			left: 105rpx;
+			width: 180rpx;
+			height: 26rpx;
+			font-family: PingFang-SC-Medium;
+			font-size: 28rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: -1rpx;
+			color: #df9543;
+		}
+		.picture{
+			position: absolute;
+			left: 35rpx;
+			top: 58rpx;
+			width: 36rpx;
+			height: 40rpx;
+		}
+		.picture1{
+			position: absolute;
+			left: 685rpx;
+			top: 50rpx;
+			width: 16rpx;
+			height: 26rpx;
+		}
+		.tw1{
+			position: absolute;
+			left: 35rpx;
+			top: 112rpx;
+			width: 670rpx;
+			height: 1rpx;
+			background-color: #eeeeee;
+		}
+		.picture2{
+			position: absolute;
+			top: 153rpx;
+			left: 35rpx;
+			width: 36rpx;
+			height: 40rpx;
+		}
+		.bm{
+			position: absolute;
+			top: 153rpx;
+			left: 105rpx;
+			width: 195rpx;
+			height: 26rpx;
+			font-family: PingFang-SC-Medium;
+			font-size: 28rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: -1rpx;
+			color: #df9543;
+		}
+		.picture3{
+			position: absolute;
+			left: 685rpx;
+			top: 153rpx;
+			width: 16rpx;
+			height: 26rpx;
+		}
+		.tw2{
+			position: absolute;
+			left: 35rpx;
+			top: 215rpx;
+			width: 670rpx;
+			height: 1rpx;
+			background-color: #eeeeee;
+		}
+		.picture4{
+			position: absolute;
+			top: 256rpx;
+			left: 35rpx;
+			width: 36rpx;
+			height: 40rpx;
+		}
+		.zx{
+			position: absolute;
+			top: 256rpx;
+			left: 105rpx;
+			width: 271rpx;
+			height: 26rpx;
+			font-family: PingFang-SC-Medium;
+			font-size: 28rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: -1rpx;
+			color: #df9543;
+		}
+		.picture5{
+			position: absolute;
+			left: 685rpx;
+			top: 256rpx;
+			width: 16rpx;
+			height: 26rpx;
+		}
+		.tw3{
+			position: absolute;
+			left: 35rpx;
+			top: 318rpx;
+			width: 670rpx;
+			height: 1rpx;
+			background-color: #eeeeee;
+		}
+		.picture6{
+			position: absolute;
+			top: 359rpx;
+			left: 35rpx;
+			width: 36rpx;
+			height: 40rpx;
+		}
+		.bl{
+			position: absolute;
+			top: 359rpx;
+			left: 105rpx;
+			width: 90rpx;
+			height: 26rpx;
+			font-family: PingFang-SC-Medium;
+			font-size: 28rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: -1rpx;
+			color: #df9543;
+		}
+		.picture7{
+			position: absolute;
+			left: 685rpx;
+			top: 359rpx;
+			width: 16rpx;
+			height: 26rpx;
+		}
+		.tw4{
+			position: absolute;
+			left: 35rpx;
+			top: 421rpx;
+			width: 670rpx;
+			height: 1rpx;
+			background-color: #eeeeee;
+		}
+		.picture11{
+			position: absolute;
+			top: 462rpx;
+			left: 35rpx;
+			width: 36rpx;
+			height: 40rpx;
+		}
+		.sy{
+			position: absolute;
+			top: 462rpx;
+			left: 105rpx;
+			width: 409rpx;
+			height: 26rpx;
+			font-family: PingFang-SC-Medium;
+			font-size: 28rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: -1rpx;
+			color: #df9543;
+			}
+		.picture8{
+			position: absolute;
+			left: 685rpx;
+			top: 462rpx;
+			width: 16rpx;
+			height: 26rpx;
+		}
+		.tw5{
+			position: absolute;
+			left: 35rpx;
+			top: 524rpx;
+			width: 670rpx;
+			height: 1rpx;
+			background-color: #eeeeee;
+		}
+		.picture9{
+			position: absolute;
+			top: 565rpx;
+			left: 35rpx;
+			width: 36rpx;
+			height: 40rpx;
+		}
+		.jc{
+			position: absolute;
+			top: 565rpx;
+			left: 105rpx;
+			width: 254rpx;
+			height: 26rpx;
+			font-family: PingFang-SC-Medium;
+			font-size: 28rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: -1rpx;
+			color: #df9543;
+			}
+		.picture10{
+			position: absolute;
+			left: 685rpx;
+			top: 565rpx;
+			width: 16rpx;
+			height: 26rpx;
+		}
+		.tw6{
+			position: absolute;
+			left: 35rpx;
+			top: 627rpx;
+			width: 670rpx;
+			height: 1rpx;
+			background-color: #eeeeee;
+		}
+		
+	}
